@@ -45,5 +45,5 @@ while True:
             time.sleep(9 * 60)
 
         except Exception:
-            logging.exception()
+            logging.exception('')
             time.sleep(3)
